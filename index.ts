@@ -1,3 +1,7 @@
+import {
+  gettingStartedGuide
+} from "./src";
+
 window.onload = () => {
   const rootEle = document.getElementById("root");
   const canvasList = (<HTMLElement>rootEle).getElementsByTagName("canvas");
@@ -8,4 +12,5 @@ window.onload = () => {
   }
 
   // our code here
+  gettingStartedGuide.ch1_01(canvas);
 };
