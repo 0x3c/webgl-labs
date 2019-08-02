@@ -1,1 +1,2 @@
-export * from './getting-started-guide'
+import * as gettingStartedGuide from './getting-started-guide'
+export { gettingStartedGuide }

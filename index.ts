@@ -3,8 +3,8 @@ import {
 } from "./src";
 
 window.onload = () => {
-  const rootEle = document.getElementById("root");
-  const canvasList = (<HTMLElement>rootEle).getElementsByTagName("canvas");
+  const rootEle = <HTMLElement>document.getElementById("root");
+  const canvasList = rootEle.getElementsByTagName("canvas");
   const canvas = canvasList[0];
   if (!canvas) {
     console.error("Not Found Canvas");
@@ -12,5 +12,5 @@ window.onload = () => {
   }
 
   // our code here
-  gettingStartedGuide.ch1_01(canvas);
+  gettingStartedGuide.ch2._01(canvas)
 };
