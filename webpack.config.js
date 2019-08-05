@@ -30,6 +30,10 @@ module.exports = {
             loader: "awesome-typescript-loader"
           }
         ]
+      },
+      {
+        test: /\.(png|jpg|gif|jpeg)$/,
+        use: 'file-loader'
       }
     ]
   },
