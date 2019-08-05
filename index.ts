@@ -12,5 +12,5 @@ window.onload = () => {
   }
 
   // our code here
-  gettingStartedGuide.ch2._01(canvas)
+  gettingStartedGuide.ch2._02(canvas)
 };
