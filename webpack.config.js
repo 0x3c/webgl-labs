@@ -41,7 +41,6 @@ module.exports = {
     new CleanWebpackPlugin(),
     new CheckerPlugin(),
     new HtmlWebpackPlugin({
-      filename: "index.html",
       template: path.resolve("public", "index.html")
     })
   ]
